@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+  <dc:title>W Obronie Wolności - Sam Williams</dc:title>
+  <dc:language>en-us</dc:language>
+  <meta name="cover" content="cov" />
+  <dc:creator>Sam Williams</dc:creator>
+  <dc:publisher>Adam Wolski</dc:publisher>
+  <dc:date>2012-10-13</dc:date>
+  <dc:description>
+    Krucjata hakera na rzecz wolnego oprogramowania - fascynująca opowieść o Richardzie Stallmanie.
+  </dc:description>
+</metadata>
+
+<manifest>
+  <item id="title" media-type="application/xhtml+xml" href="index.html"></item>
+  <item id="c0" media-type="application/xhtml+xml" href="ch00.html"></item>
+  <item id="c1" media-type="application/xhtml+xml" href="ch01.html"></item>
+  <item id="c2" media-type="application/xhtml+xml" href="ch02.html"></item>
+  <item id="c3" media-type="application/xhtml+xml" href="ch03.html"></item>
+  <item id="c4" media-type="application/xhtml+xml" href="ch04.html"></item>
+  <item id="c5" media-type="application/xhtml+xml" href="ch05.html"></item>
+  <item id="c6" media-type="application/xhtml+xml" href="ch06.html"></item>
+  <item id="c7" media-type="application/xhtml+xml" href="ch07.html"></item>
+  <item id="c8" media-type="application/xhtml+xml" href="ch08.html"></item>
+  <item id="c9" media-type="application/xhtml+xml" href="ch09.html"></item>
+  <item id="c10" media-type="application/xhtml+xml" href="ch10.html"></item>
+  <item id="c11" media-type="application/xhtml+xml" href="ch11.html"></item>
+  <item id="c12" media-type="application/xhtml+xml" href="ch12.html"></item>
+  <item id="c13" media-type="application/xhtml+xml" href="ch13.html"></item>
+  <item id="c14" media-type="application/xhtml+xml" href="ch14.html"></item>
+  <item id="a01" media-type="application/xhtml+xml" href="appa.html"></item>
+  <item id="a02" media-type="application/xhtml+xml" href="appb.html"></item>
+  <item id="a03" media-type="application/xhtml+xml" href="appc.html"></item>
+  <item id="ncx" media-type="application/x-dtbncx+xml" href="wobron.ncx"></item>
+  <item id="cov" media-type="image/png" href="graphics/wobron.jpg"></item>
+</manifest>
+
+<spine toc="ncx">
+  <itemref idref="title"/>
+  <itemref idref="c0"/>
+  <itemref idref="c1"/>
+  <itemref idref="c2"/>
+  <itemref idref="c3"/>
+  <itemref idref="c4"/>
+  <itemref idref="c5"/>
+  <itemref idref="c6"/>
+  <itemref idref="c7"/>
+  <itemref idref="c8"/>
+  <itemref idref="c9"/>
+  <itemref idref="c10"/>
+  <itemref idref="c11"/>
+  <itemref idref="c12"/>
+  <itemref idref="c13"/>
+  <itemref idref="c14"/>
+  <itemref idref="a01"/>
+  <itemref idref="a02"/>
+  <itemref idref="a03"/>
+</spine>
+
+<guide>
+  <reference type="toc" title="Spis treści" href="index.html"></reference>
+  <reference type="text" title="Wstęp" href="ch00.html"></reference>
+</guide>
+
+</package>
