@@ -17,6 +17,10 @@
       <navLabel><text>Spis treści</text></navLabel>
       <content src="index.html" />
     </navPoint> 
+   <navPoint id="podziekowania" playOrder="1">
+      <navLabel><text>Podziękowania</text></navLabel>
+      <content src="podziekowania.html" />
+    </navPoint>
    <navPoint id="ch0" playOrder="2">
       <navLabel><text>Wstęp</text></navLabel>
       <content src="ch00.html" />
@@ -77,15 +81,15 @@
       <navLabel><text>Rozdział 14</text></navLabel>
       <content src="ch14.html"/>
     </navPoint>
-    <navPoint id="appendix1" playOrder="17">
+    <navPoint id="a01" playOrder="17">
       <navLabel><text>Dodatek A</text></navLabel>
       <content src="appa.html" />
     </navPoint>
-    <navPoint id="appendix2" playOrder="18">
+    <navPoint id="a02" playOrder="18">
       <navLabel><text>Dodatek B</text></navLabel>
       <content src="appb.html" />
     </navPoint>
-    <navPoint id="appendix3" playOrder="18">
+    <navPoint id="a03" playOrder="18">
       <navLabel><text>Dodatek C</text></navLabel>
       <content src="appc.html" />
     </navPoint>

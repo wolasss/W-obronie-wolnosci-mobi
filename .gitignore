@@ -1,3 +1,4 @@
 *.esproj
+*.espressostorage
 *.mobi
 .DS_STORE

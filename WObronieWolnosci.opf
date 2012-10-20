@@ -13,6 +13,7 @@
 
 <manifest>
   <item id="title" media-type="application/xhtml+xml" href="index.html"></item>
+  <item id="podziekowania" media-type="application/xhtml+xml" href="podziekowania.html"></item>
   <item id="c0" media-type="application/xhtml+xml" href="ch00.html"></item>
   <item id="c1" media-type="application/xhtml+xml" href="ch01.html"></item>
   <item id="c2" media-type="application/xhtml+xml" href="ch02.html"></item>
@@ -37,6 +38,7 @@
 
 <spine toc="ncx">
   <itemref idref="title"/>
+  <itemref idref="podziekowania"/>
   <itemref idref="c0"/>
   <itemref idref="c1"/>
   <itemref idref="c2"/>
